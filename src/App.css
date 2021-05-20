@@ -1,38 +1,53 @@
-.App {
-  text-align: center;
-}
+.color-1{fill:#2bdbdc;isolation:isolate;}
+.cls-1{opacity:0.1;}
+.cls-2{opacity:0.2;}
+.cls-3{opacity:0.4;}
+.cls-4{opacity:0.6;}
+.color-2{fill:#0067f4;isolation:isolate;}
+.color-3{fill:#4da422;isolation:isolate;}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.test{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: #f4f6f7;
+ }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .test {
+       padding-top: 100px;
+        padding-bottom: 100px; } }
+@media (max-width: 767px) {
+    .test {
+        padding-top: 80px;
+        padding-bottom: 80px; } 
+    
+    }
+.card-title{
+    text-align: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.r{
+    text-align: center;
+    font-weight: lighter;
+    color: gray;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: grey;
 }
-
-.App-link {
-  color: #61dafb;
+.carousel-indicators .active{
+    background-color: blue;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.carousel-indicators {
+    bottom: -50px;
+    margin-left: 20%;
+}
+.img{
+    height: fit-content;
+    width: fit-content;
+    padding-top: 5px;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
 }
